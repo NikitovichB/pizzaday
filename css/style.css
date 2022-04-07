@@ -464,4 +464,12 @@ body {
 .dno-social__vk {
   margin: 0 5px;
 }
+
+.search {
+  outline: none;
+}
+
+.searchmenu {
+  outline: none;
+}
 /*# sourceMappingURL=style.css.map */
