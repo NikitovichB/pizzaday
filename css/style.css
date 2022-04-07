@@ -1,0 +1,467 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+@font-face {
+  font-family: 'SFPro';
+  src: url("/fonts/SFPro.woff") format("woff"), url("/fonts/SFPro.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1.04%, rgba(245, 245, 245, 0)), to(#F5F5F5));
+  background: linear-gradient(180deg, rgba(245, 245, 245, 0) 1.04%, #F5F5F5 100%);
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.header-all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 45px;
+  margin-bottom: 40.3px;
+}
+
+.header-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-logo__logo {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+.header-logo__text {
+  width: 57px;
+  padding-left: 11.3px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.header-search {
+  width: 708px;
+  height: 38px;
+  border: 0.5px solid #D9D9D9;
+  background: url(/img/header/homesearch.svg) 11px no-repeat;
+  border-radius: 2px;
+  margin-left: 102px;
+}
+
+.header-search__address {
+  padding: 12.5px 12px 8px 32px;
+}
+
+.search {
+  display: block;
+  width: 100%;
+}
+
+.header-action {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-action__login {
+  width: 96px;
+  height: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: -25px 11px;
+  background: #1890FF;
+  border: 1px solid #D9D9D9;
+  border-radius: 2px;
+  margin-left: 85px;
+}
+
+.header-action__basket {
+  width: 113px;
+  height: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+  border-radius: 2px;
+  margin-left: 10px;
+}
+
+.login {
+  color: white;
+  font-family: 'SFPro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.basket {
+  color: #595959;
+  position: static;
+  height: 24px;
+  top: calc(50% - 24px/2);
+  font-family: 'SFPro';
+  font-size: 16px;
+}
+
+.search::-webkit-input-placeholder {
+  font-family: 'SFPro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.search:-ms-input-placeholder {
+  font-family: 'SFPro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.search::-ms-input-placeholder {
+  font-family: 'SFPro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.search::placeholder {
+  font-family: 'SFPro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.content-title {
+  background: #fff1b8 right url(/img/Title/title.png) no-repeat;
+  height: 300px;
+  margin-bottom: 56px;
+}
+
+.content-title__title {
+  font-size: 39px;
+  padding-left: 71px;
+  width: 401px;
+  padding-top: 68px;
+  margin-bottom: 15px;
+}
+
+.content-title__text {
+  font-size: 24px;
+  padding-left: 71px;
+  width: 530px;
+}
+
+.content-title__image {
+  display: block;
+}
+
+.content-navigations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content-navigations__restoraun {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 44px;
+}
+
+.content-navigations__searchmenu {
+  width: 305px;
+  height: 35px;
+  border: 0.5px solid #D9D9D9;
+  background: url(/img/Title/FoodMenu/Vector.svg) 11px no-repeat;
+  border-radius: 2px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.searchmenu {
+  margin-left: 32px;
+  height: 16px;
+  width: 273px;
+  margin-top: 10px;
+}
+
+.searchmenu::-webkit-input-placeholder {
+  font-family: 'SFPro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.searchmenu:-ms-input-placeholder {
+  font-family: 'SFPro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.searchmenu::-ms-input-placeholder {
+  font-family: 'SFPro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.searchmenu::placeholder {
+  font-family: 'SFPro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.content-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 62px;
+}
+
+.content-menu-food {
+  width: 384px;
+  height: 378px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 7px;
+  margin-bottom: 30px;
+}
+
+.content-menu-food__image {
+  width: 384px;
+  height: 250px;
+  margin-bottom: 23px;
+}
+
+.content-menu-food__namefood {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  margin-left: 24px;
+}
+
+.content-menu-food__time {
+  width: 55px;
+  height: 22px;
+  color: white;
+  background-color: black;
+  font-family: 'SFPro';
+  margin-right: 25px;
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.content-menu-food__rating {
+  margin-top: 0px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFC107;
+  margin-left: 24px;
+}
+
+.content-menu-food__cost {
+  color: #8C8C8C;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  margin-right: 133px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content-menu-food__timename {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.content-menu-food__starcost {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pizza {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pizza::before {
+  content: '';
+  display: block;
+  background-color: #8C8C8C;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 10px;
+}
+
+.ftr {
+  background-color: white;
+  width: 100%;
+  height: 157px;
+}
+
+.dno {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 72px;
+}
+
+.dno-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+.dno-logo__text {
+  width: 80px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  margin-left: 11px;
+  margin-right: 11px;
+}
+
+.dno-menu {
+  display: block;
+  MARGIN-RIGHT: AUTO;
+  color: #595959;
+  color: #595959;
+}
+
+.dno-menu__restorauns {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0 7.5px;
+  color: #595959;
+}
+
+.dno-menu__courer {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0 7.5px;
+}
+
+.dno-menu__press {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0 7.5px;
+}
+
+.dno-menu__contacts {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #595959;
+  margin: 0 7.5px;
+}
+
+.dno-social__inst {
+  margin: 0 10px;
+}
+
+.dno-social__facebook {
+  margin: 0 5px;
+}
+
+.dno-social__vk {
+  margin: 0 5px;
+}
+/*# sourceMappingURL=style.css.map */
